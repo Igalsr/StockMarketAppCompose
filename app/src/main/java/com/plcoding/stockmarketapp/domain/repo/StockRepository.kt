@@ -11,6 +11,4 @@ interface StockRepository {
         query: String
     ): Flow<Resource<List<CompanyListing>>>
 
-
-
 }
